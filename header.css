@@ -267,13 +267,13 @@ font-weight: 400;
   justify-content: space-around;
   align-items: center;
   padding-inline: 5%;
-  gap: 5%;
+  gap: 3%;
   width: auto;
   height: 350px;
 }
 .feature{
-  width: 250px;
-  height: 270px;
+  width: 276px;
+  height: 300px;
   border-radius: 25px;
   padding: 20px;
   border: solid;
