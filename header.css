@@ -38,7 +38,9 @@ body {
   width: 60%;
   gap: 20px;
 }
-
+.nav-toggle{
+  display: none;
+}
 .navbar__link {
   text-decoration: none;
   color: black;
@@ -439,37 +441,4 @@ height: auto;
 }
 .footer-div li{
   list-style: none;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 15px;
-  }
-
-  .navbar__menu {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero__content,
-  .hero__image {
-    width: 100%;
-  }
-
-  .services__container {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
-
-  .partners__logos {
-    gap: 15px;
-  }
 }
